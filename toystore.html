@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toy Inventory Manager</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="contactpage.html">Contact</a></li>
+            <li><a href="resume.html">Resume and Skills</a></li>
+            <li><a href="torquewerkspage.html">TorqueWerks Project</a></li>
+            <li><a href="toystore.html">Toy Store Project</a></li>
+            <li><a href="eportfolio.html">My EPortfolio</a></li>
+        </ul>
+    </nav>
+
+    <section class="hero-section">
+        <h1>Toy Inventory Manager</h1>
+        <p>An object-oriented Java project for managing a toy store's inventory.</p>
+    </section>
+
+    <section class="content-section">
+        <h2>Reflections on Design and Technology Choices</h2>
+        <div class="content-card">
+            <h3>Design Choices</h3>
+            <p>
+                <strong>Object-Oriented Principles:</strong> The project uses inheritance effectively, with a parent Toy class and its respective child classes (Figures, Animals, Puzzles, BoardGames). 
+                Encapsulation and polymorphism were used to ensure working and maintainable code.
+            </p>
+            <p>
+                <strong>File I/O for Data Persistence:</strong> File I/O for Data Persistence: The choice to use a text file (toys.txt) ensures simplicity. 
+                Error handling was implemented to manage malformed data in the form of separate files.
+            </p>
+            <h3>Technology Choices</h3>
+            <p>
+                <strong>Java:</strong>Selected Java as it was for a class project, but it also has collection classes for efficient inventory management which were very helpful in the making of this project.
+                <strong>Custom Exceptions:</strong> Implemented to validate user input and handle errors effectively, ensuring a smooth user experience without breaking.
+            </p>
+        </div>
+    </section>
+
+    <section class="content-section">
+        <h2>Reflections on Challenges and Solutions</h2>
+        <div class="content-card">
+            <p>
+                While developing this project, I faced memorable challenges: Handling malformed data in toys.txt. 
+                This was fixed by adding validation checks and try-catch blocks to ensure errors wouldn't occur. The next Challenge was enforcing unique serial numbers. 
+                Solving this required me to Implement a toyExists method with validation logic so the serial numbers wouldn't be repeated. Another challenge I faced was user input validation. 
+                To solve this problem exception handling and input validation methods were implemented. 
+            </p>
+        </div>
+    </section>
+
+    <section class="content-section">
+        <h2>Screenshots and Code Snippets</h2>
+        <div class="image-gallery">
+            <figure>
+                <img src="images/AddToy.png" alt="Adding a new toy screenshot">
+                <figcaption>Adding a new toy.</figcaption>
+            </figure>
+            <figure>
+                <img src="images/AddToyCode.png" alt="Add toy code snippet">
+                <figcaption>Code snippet for adding a toy.</figcaption>
+            </figure>
+            <figure>
+                <img src="images/GiftSuggestion.png" alt="Gift suggestion functionality screenshot">
+                <figcaption>Gift suggestion functionality.</figcaption>
+            </figure>
+        </div>
+    </section>
+
+    <section class="content-section">
+        <h2>Key Learnings and Reflections</h2>
+        <div class="content-card">
+            <p>
+                Overall this project has helped me learn a lot more about Java and how to use it more effectively such as learning to handle text files effectively for creating a database that was able to be searched and have items removed, added, and purchased, then saving changes back to the file.
+                Improving understanding of inheritance and abstraction, and how they can be used to make sub-classes. 
+                Lastly, enhance skills in managing runtime exceptions for better user experience and having input validation to handle user errors as well
+            </p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Your Name.</p>
+    </footer>
+</body>
+
+</html>

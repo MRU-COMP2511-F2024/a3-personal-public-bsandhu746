@@ -7,43 +7,85 @@
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <header class="hero-section">
-        <div class="container">
-            <h1>Hi, I'm Bir Sandhu</h1>
-            <p>Bachelor of Computer Informations Student</p>
-            <a href="#contact" class="btn-primary">Get in Touch</a>
+    <header class="banner">
+        <div class="navbar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="contactpage.html">Contact</a></li>
+                <li><a href="resume.html">Resume and Skills</a></li>
+                <li><a href="torquewerkspage.html">TorqueWerks Project</a></li>
+                <li><a href="toystore.html">Toy Store Project</a></li>
+                <li><a href="eportfolio.html">My EPortfolio</a></li>
+            </ul>
         </div>
-    </header>
+    </header>    
     <main>
+        <section class="hero-section">
+            <div class="container">
+                <h1>Hi, I'm Bir Sandhu</h1>
+                <p>Bachelor of Computer Informations Student</p>
+                <a href="contactpage.html" class="btn-primary">Get in Touch</a>
+            </div>
+        </section>
+
         <section id="about" class="about-section">
             <div class="container">
                 <h2>About Me</h2>
                 <p>Hello! I'm a BCIS Student who enjoys my program and hopes to make a difference in my lifetime. This portfolio showcases my journey and projects.</p>
             </div>
         </section>
+        <section id="introduction-video" class="video-section">
+            <div class="container">
+                <h2>Introduction Video</h2>
+                <video controls width="100%" style="max-width: 800px; margin: 0 auto; display: block;">
+                    <source src="videos/PortfolioVideo.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <p style="text-align: center;">A brief introduction to my portfolio and experiences.</p>
+                <div class="transcription">
+                    <h3>Video Transcription</h3>
+                    <p>Hi there, my name is Bir Sandhu, and this is my portfolio. This portfolio contains past projects I've worked on and a resume and skills section. 
+                        It also has a contact form, so if you need to reach out to me for any reason, please don't hesitate. Thanks!</p>
+                </div>
+            </div>
+        </section>
+        
 
         <section id="projects" class="projects-section">
             <div class="container">
                 <h2>My Work</h2>
                 <div class="projects-grid">
                     <div class="project-card">
-                        <img src="images/project1.jpg" alt="Project 1">
+                        <img src="images/TorqueWerksHomeSS.png" alt="Screenshot of Car Web Design Project page">
                         <h3>Web Design Project</h3>
-                        <p>Put Short description of project b4 submission.</p>
-                        <a href="#" class="btn-secondary">Learn More</a>
+                        <p>Fictional Car Manufacture Page made by me and a peer.</p>
+                        <a href="torquewerkspage.html" class="btn-secondary">Learn More</a>
                     </div>
                     <div class="project-card">
-                        <img src="images/project2.jpg" alt="Project 2">
+                        <img src="images/ToyStoreHomeSS.png" alt="Screenshot of Java Toy Store Project page">
                         <h3>Toy Store Java Project</h3>
-                        <p>Short description- Need to describe still.</p>
-                        <a href="#" class="btn-secondary">Learn More</a>
+                        <p>Working Toy Store project developed by me.</p>
+                        <a href="toystore.html" class="btn-secondary">Learn More</a>
+                    </div>
+                    <div class="project-card">
+                        <img src="images/EPortfolioHomeSS.png" alt="Screenshot of EPortfolio project page">
+                        <h3>EPortfolio Project</h3>
+                        <p>Website made to showcase my work on this website.</p>
+                        <a href="eportfolio.html" class="btn-secondary">Learn More</a>
+                    </div>
+                    <div class="project-card">
+                        <img src="images/ResumeandSKillsHomeSS.png" alt="Screenshot of Resume and Skills page">
+                        <h3>Resume and Skills</h3>
+                        <p>Highlights my academic and real-life work.</p>
+                        <a href="resume.html" class="btn-secondary">Learn More</a>
                     </div>
                 </div>
             </div>
         </section>
     </main>
+
     <footer>
-        <p>&copy; 2024 Bir Sandhu. All rights reserved.</p>
+        <p>&copy; 2024 Bir Sandhu.</p>
     </footer>
 </body>
 </html>
